@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
       :http => 'https://github.com/indigames/ffmpeg-kit/releases/download/v6.0/ffmpeg-kit-ios-full.zip'
     }
   
-    s.vendored_frameworks = 'bundle-apple-framework-ios/*.xcframework'
+    s.vendored_frameworks = 'bundle-apple-xcframework-ios/*.xcframework'
   end
   
